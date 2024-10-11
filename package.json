@@ -1,0 +1,23 @@
+{
+  "name": "segunda-chance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "start": "ts-node --transpile-only src/index.ts"  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mysql": "^2.15.26",
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
